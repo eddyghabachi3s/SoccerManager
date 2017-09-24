@@ -1,0 +1,74 @@
+body {
+	color: brown;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+a {
+	color: brown;
+}
+
+input[type=submit] {
+	background-color: brown;
+	color: white;
+	border-radius: 5px;
+}
+
+input[type=text] {
+	color: brown;
+	border-color: brown;
+	border-width: thin;
+}
+
+input[type=text]:focus {
+	background-color: aliceblue;
+}
+
+input[type=submit]:hover {
+	background-color: lightblue;
+	color: brown;
+}
+
+.list {
+	border-collapse: collapse;
+	width: 1100px;
+}
+
+#index {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.list tr {
+	border: solid thin black;
+	height: 35px;
+}
+
+.list tbody tr:hover {
+	background-color: beige;
+}
+
+.list thead {
+	background-color: gray;
+	color: white;
+	text-align: center;
+}
+
+.list tbody {
+	background: linear-gradient(to bottom, lightblue, aliceblue);
+}
+
+#header {
+	padding-left: 10px;
+	color: white;
+	background: linear-gradient(to right, gray, white);
+}
+
+.homeTeam, .awayTeam, .score, .modify, .delete {
+	text-align: center;
+}
+
+.editor {
+	background: linear-gradient(to right, beige, white);
+	padding: 20px 0px 20px 10px;
+}
