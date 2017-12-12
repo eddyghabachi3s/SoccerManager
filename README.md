@@ -3,14 +3,14 @@ This repository contains the Soccer Manager product variants
 
 ### Product *p1*:
 
-**Features:** *visualize, add, modify*
+**Features:** *ManageMatches, AddMatches, ModifyMatches*
 
 ### Product *p2*:
 
-**Features:** *visualize, add, modify, delete*
+**Features:** *ManageMatches, AddMatches, ModifyMatches, DeleteMatches*
 
 ### Product *p3*:
 
-**Features:** *visualize, add*
+**Features:** *ManageMatches, AddMatches*
 
 
